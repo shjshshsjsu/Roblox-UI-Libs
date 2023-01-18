@@ -24,9 +24,9 @@ local PlayerSection = PlayerTab:AddSection({
 
 
 
-PlayerSection:AddButton({
+PlayerSection:TextLabel({
 
-	Name = "No Kick Active",	Callback = function()
+	Name = "Coming Soon",	
 
         
 
