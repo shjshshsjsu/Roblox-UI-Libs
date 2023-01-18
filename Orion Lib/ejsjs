@@ -58,7 +58,7 @@ end)
 
 if not Success then
 
-	warn("\nWreston Library - Failed to load Feather Icons. Error code: " .. Response .. "\n")
+	warn("\nWreston Hub - Failed to load Feather Icons. Error code: " .. Response .. "\n")
 
 end	
 
@@ -394,7 +394,7 @@ local function LoadCfg(Config)
 
 		else
 
-			warn("Orion Library Config Loader - Could not find ", a ,b)
+			warn("Wreston Hub Config Loader - Could not find ", a ,b)
 
 		end
 
