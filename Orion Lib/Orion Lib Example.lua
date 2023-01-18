@@ -23,23 +23,12 @@ local PlayerSection = PlayerTab:AddSection({
 })
 
 
-PlayerSection:AddSlider({
-	Name = "Walkspeed",
-	Min = 16,
-	Max = 200,
-	Default = 5,
-	Color = Color3.fromRGB(255,255,255),
-	Increment = 1,
-	ValueName = "Walkspeed",
-	Callback = function(Value)
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
-	end    
-})
+
 PlayerSection:AddButton({
 
-	Name = "Esp Active",	Callback = function()
+	Name = "No Kick Active",	Callback = function()
 
-        loadstring(game:HttpGet(('loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/cheatx/main/cheatx%20loader'))()')))()
+        
 
   	end    
 
