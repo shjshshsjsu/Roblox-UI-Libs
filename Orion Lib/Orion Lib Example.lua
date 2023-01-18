@@ -1,8 +1,8 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 OrionLib:MakeNotification({
-	Name = "Krypted Hub",
-	Content = "Welcome To Krypted Hub! Have Fun!",
+	Name = "Wreston Hub",
+	Content = "Welcome To Wreston Hub! Have Fun! ",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
@@ -26,7 +26,7 @@ local PlayerSection = PlayerTab:AddSection({
 PlayerSection:AddSlider({
 	Name = "Walkspeed",
 	Min = 16,
-	Max = 100,
+	Max = 200,
 	Default = 5,
 	Color = Color3.fromRGB(255,255,255),
 	Increment = 1,
@@ -51,7 +51,7 @@ local SettingsSection = SettingsTab:AddSection({
 })
 
 SettingsSection:AddButton({
-	Name = "Destroy UI",
+	Name = "Gui Close",
 	Callback = function()
         OrionLib:Destroy()
   	end    
