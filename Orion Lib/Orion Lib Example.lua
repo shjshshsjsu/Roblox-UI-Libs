@@ -8,7 +8,7 @@ OrionLib:MakeNotification({
 })
 
 
-local Window = OrionLib:MakeWindow({Name = "Krypted Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "KryptedSaves"})
+local Window = OrionLib:MakeWindow({Name = "Wreston Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "KryptedSaves"})
 
 --Player Tab--
 
@@ -59,4 +59,4 @@ SettingsSection:AddButton({
 
 --Settings End--
 
-OrionLib:Init() --UI Lib End
+OrionLib:Init() --UI Lib 
